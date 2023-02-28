@@ -14,6 +14,7 @@ tarefa10 :: (Int, Int) -> (Int, Int) ->(Int, Int)
 tarefa10 (x,y) (xs, ys) = (x + xs, y + ys)
 
 
+-- 2. Uma empresa decidiu dar a seus funcionários um abono de salario, baseando-se nos pontos obtidos durante o mês, de acordo com a tabela:
 -- treino com uso de "Guards"
 abono :: Int->String
 abono valor
@@ -22,6 +23,5 @@ abono valor
   | valor >= 20 && valor <= 30 = "300,00"
   | valor >= 31 && valor <= 40 = "400,00"
   | valor >= 41 = "500,00"
-  -- | otherwise = "Nao entendi Otherwise"
 
 
